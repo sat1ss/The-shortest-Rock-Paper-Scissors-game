@@ -1,4 +1,3 @@
 import random
-print("(R)ock, (P)aper, (S)cissors ...")
-input()
-print(random.choice(["You won", "Tie" "You lose"]))
+input("(R)ock, (P)aper, (S)cissors:   " )
+print("You", random.choice(["win","lose","tied"]))
